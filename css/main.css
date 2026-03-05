@@ -42,3 +42,43 @@ footer{
         grid-template-rows: 500px 500px 500px 500px 120px;
     }
 }
+/* estilos contacto */
+.contacto{
+    display: flex;
+    gap: 25%;
+    padding: 1rem;
+}
+
+.textos{
+    display: block;
+    
+   
+    padding: 8rem;
+    align-content: center;
+}
+
+.cont{
+    display: grid;
+    grid-template-rows: 500px 170px;
+}
+
+@media (max-width: 767px){
+    .contacto{
+        display: block;
+    }
+}
+/* estilos nosotros */
+.nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    
+}
+
+.nosotros div img{
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.nosotros div p{
+    padding: 1rem;
+}
